@@ -10,7 +10,7 @@ public class KlassenÜbung {
 
         AktuellesDatum();
 
-        Buch = new Artikel(12, "Ahllo", 32);
+        Artikel Buch = new Artikel(12, "Buch 123", 32);
     }
 
     public static void WunschDatum (int tag, int monat, int jahr){
@@ -29,7 +29,7 @@ public class KlassenÜbung {
         System.out.println(tag + "." + monat + "." + jahr);
     }
 
-     public class Artikel{
+     public static class Artikel{
 
         // geforderte Variablen
 
