@@ -15,6 +15,6 @@ public class VererbungÜbung {
     }
 
     public static class Sparkonto extends Konto{
-        
+
     }
 }
