@@ -10,7 +10,7 @@ public class KlassenÜbung {
 
         AktuellesDatum();
 
-        
+        Buch = new Artikel(12, "Ahllo", 32);
     }
 
     public static void WunschDatum (int tag, int monat, int jahr){
@@ -76,6 +76,10 @@ public class KlassenÜbung {
 
         // Konstruktor + Ausgabemethode
         public Artikel(long artikelnummer, String artikelbezeichnung, double verkaufspreis){
+             this.artikelnummer = artikelnummer;
+             this.artikelbezeichnung = artikelbezeichnung;
+             this.verkaufspreis = verkaufspreis;
+
             System.out.println(artikelnummer + " " + artikelbezeichnung + " " + verkaufspreis);
 
         }
