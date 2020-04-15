@@ -10,7 +10,7 @@ public class KlassenÜbung {
 
         AktuellesDatum();
 
-
+        
     }
 
     public static void WunschDatum (int tag, int monat, int jahr){
@@ -31,6 +31,8 @@ public class KlassenÜbung {
 
      public class Artikel{
 
+        // geforderte Variablen
+
          private long artikelnummer;
          private String artikelbezeichnung;
          private double verkaufspreis;
@@ -38,6 +40,7 @@ public class KlassenÜbung {
          private long sortierUmfang;
 
         //Setter und Getter der variablen
+
          public long getArtikelnummer() {
              return artikelnummer;
          }
@@ -71,11 +74,9 @@ public class KlassenÜbung {
          }
 
 
-
-
-
+        // Konstruktor + Ausgabemethode
         public Artikel(long artikelnummer, String artikelbezeichnung, double verkaufspreis){
-            System.out.println();
+            System.out.println(artikelnummer + " " + artikelbezeichnung + " " + verkaufspreis);
 
         }
 
