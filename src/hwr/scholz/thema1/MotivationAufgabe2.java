@@ -29,3 +29,5 @@ public class MotivationAufgabe2 {
     }
 
 }
+
+//NOT FINISHED
