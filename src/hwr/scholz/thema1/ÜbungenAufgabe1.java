@@ -1,6 +1,6 @@
-package hwr.scholz.übungenthema1;
+package hwr.scholz.thema1;
 
-public class aufgabe1 {
+public class ÜbungenAufgabe1 {
 
     public static void main(String[] args) {
         Point test = new Point(2,4,3);
@@ -47,5 +47,7 @@ public class aufgabe1 {
             
             }
     }
+
+}
 
 }
