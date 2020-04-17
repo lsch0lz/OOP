@@ -37,17 +37,19 @@ public class ÜbungenAufgabe1 {
                 this.z = z;
             }
 
-        public Point(int x, int y, int z){
-                
+        public Point(int x, int y, int z) {
+
                 this.x = x;
                 this.y = y;
                 this.z = z;
 
-                System.out.println("Die ugekehrten Punkte sind: " + x + y + z);
-            
-            }
+                System.out.println("Die ugekehrten Punkte sind: " + x * -1 + " " + y * -1 + " " + z * -1);
+
+
+        }
+
+
     }
 
 }
 
-}
