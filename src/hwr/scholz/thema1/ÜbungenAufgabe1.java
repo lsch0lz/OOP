@@ -37,7 +37,7 @@ public class ÜbungenAufgabe1 {
                 this.z = z;
             }
 
-        public void negate(int x, int y, int z){
+        public Point(int x, int y, int z){
                 
                 this.x = x;
                 this.y = y;
