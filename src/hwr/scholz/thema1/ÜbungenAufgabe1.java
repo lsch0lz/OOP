@@ -1,9 +1,10 @@
 package hwr.scholz.thema1;
+import java.lang.Math;
 
 public class ÜbungenAufgabe1 {
 
     public static void main(String[] args) {
-        Point test = new Point(2,4,3);
+
     }
 
     public static class Point{
@@ -37,16 +38,22 @@ public class ÜbungenAufgabe1 {
                 this.z = z;
             }
 
-        public Point(int x, int y, int z) {
+        public void negate() {
 
-                this.x = x;
-                this.y = y;
-                this.z = z;
+                this.x = x*-1;
+                this.y = y*-1;
+                this.z = z*-1;
 
-                System.out.println("Die ugekehrten Punkte sind: " + x * -1 + " " + y * -1 + " " + z * -1);
+                System.out.println("Die ugekehrten Punkte sind: " + x + " " + y + " " + z);
+
+        }
+
+        public double norm(){
 
 
         }
+
+
 
 
     }
