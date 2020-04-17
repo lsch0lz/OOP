@@ -11,6 +11,7 @@ public class KlassenÜbung {
         AktuellesDatum();
 
         Artikel Buch = new Artikel(12, "Buch 123", 32);
+        Artikel Baum = new Artikel(312, "Baum", 2333);
     }
 
     public static void WunschDatum (int tag, int monat, int jahr){
