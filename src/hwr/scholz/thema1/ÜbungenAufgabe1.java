@@ -48,11 +48,11 @@ public class ÜbungenAufgabe1 {
 
         }
 
-        public double norm(){
+       // public double norm(){
 
-            return Math.sqrt(this.x * this.x = this.y * this.y + this.z * this.z);
+            //return Math.sqrt(this.x * this.x = this.y * this.y + this.z * this.z);
 
-        }
+        //}
 
         public void print(){
             System.out.println("( " + this.x + " " + this.y + " " + this.z + " )");
